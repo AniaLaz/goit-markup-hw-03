@@ -58,7 +58,7 @@ ul {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* --------------logotype------------- */
@@ -369,6 +369,26 @@ ul {
 }
 
 /* ------------------portfolio---------------- */
+.portfolio-first {
+    padding-top: 106px;
+    padding-bottom: 50px;
+}
+
+.portfolio-list {
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio-button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.portfolio-item:not(:last-child) {
+    margin-right: 8px;
+}
 
 .portfolio-button {
     font-family: inherit;
@@ -392,7 +412,24 @@ ul {
 }
 
 /* ---------------------gallery--------------- */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.gallery-container {
+    padding-bottom: 94px;
+}
+
+.gallery-item {
+    width: calc((100%-60px)/3);
+}
+
 .gallery-link-title {
+    margin-top: 20px;
+    margin-left: 24px;
+
     font-weight: 700;
     font-size: 18px;
     line-height: 2.00;
@@ -401,6 +438,9 @@ ul {
 }
 
 .gallery-link-text {
+    margin-top: 4px;
+    margin-left: 24px;
+
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
