@@ -81,17 +81,22 @@ ul {
 
 /* ----------------header----------------- */
 .header {
+    margin-top: 24px;
+    margin-bottom: 25px;
+
     background-color: var(--background-color));
 }
 
 .header-nav {
     display: flex;
+
+    align-items: center;
 }
 
 .header-list {
     display: flex;
-    margin-top: 32px;
-    margin-bottom: 32px;
+
+
 }
 
 .header .container {
@@ -102,13 +107,12 @@ ul {
 .header-list-second {
     display: flex;
     margin-left: auto;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    align-items: center;
+
 }
 
 .logotype {
-    margin-top: 24px;
-    margin-bottom: 25px;
+
     margin-left: 215px;
 }
 
@@ -164,12 +168,10 @@ ul {
 
 .hero {
     background: var(--background-accent-color);
-}
-
-.hero-content {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 
 .hero-title {
 
@@ -222,9 +224,13 @@ ul {
 
 /* -------------------about--------------- */
 
+.about-section {
+    padding-top: 94px;
+
+}
 
 .about {
-    margin-top: 94px;
+
     margin-right: -15px;
     margin-left: -15px;
     display: flex;
@@ -262,8 +268,8 @@ ul {
 
 /* ------------------we-doing----------------- */
 
-.we-doing-title {
-    margin-top: 94px;
+.we-doing {
+    padding-top: 94px;
 }
 
 .we-doing-list {
@@ -278,9 +284,25 @@ ul {
 /* -----------------team-------------------- */
 .team {
     background: var(--background-section-color);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-list {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.team-item {
+    margin-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .team-post-title {
+    margin-top: 30px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -289,7 +311,10 @@ ul {
     color: var(--title-color)
 }
 
+
+
 .team-text {
+    margin-top: 10px;
 
     font-size: 16px;
     line-height: 1.19;
@@ -300,7 +325,20 @@ ul {
 
 /* ---------------footer------------------ */
 .footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
     background: var(--background-accent-color);
+}
+
+
+.footer-fiorst-logotype {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
 }
 
 .footer-address {
@@ -312,10 +350,14 @@ ul {
 }
 
 .footer-address-city {
+    margin-top: 20px;
+
     color: var(--accent-second-color);
 }
 
 .footer-address-contact {
+    margin-top: 9px;
+
     color: rgba(255, 255, 255, 0.6);
 }
 
