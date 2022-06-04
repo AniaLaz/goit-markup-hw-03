@@ -441,7 +441,11 @@ img {
 }
 
 .gallery-item {
+    box-sizing: border-box;
     width: calc((100%-54px)/3);
+    max-width: 370px;
+    border: 1px solid #EEEEEE;
+
 
 }
 
