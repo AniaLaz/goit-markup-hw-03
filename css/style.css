@@ -445,7 +445,7 @@ img {
 
 .gallery-item {
     box-sizing: border-box;
-    width: calc((100%-60px)/3);
+    width: calc((100% - 60px) /3);
     max-width: 370px;
 
 }
